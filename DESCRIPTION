@@ -1,0 +1,18 @@
+Package: cindieandrieu
+Title: A welcome package as a test package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Cindie",
+           family = "Andrieu-Dupin",
+           role = c("aut", "cre"),
+           email = "cindie.andrieu-dupin@developpement-durable.gouv.fr",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A package to welcome someone.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    assertthat,
+    glue
